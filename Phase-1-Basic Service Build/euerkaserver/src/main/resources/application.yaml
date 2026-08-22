@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: euerkaserver
+
+server:
+  port: 8761
+
+#Add Colored Console Logging Pattern For Each Log Level
+logging:
+  pattern:
+    console: ${CONSOLE_LOG_PATTERN:%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %cyan(%msg%n)}
+  level:
+    root: INFO
