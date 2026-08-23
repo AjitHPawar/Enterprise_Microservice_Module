@@ -33,14 +33,14 @@ pipeline {
             stage('Build Docker Image') {
                 steps {
                     dir("$SERVICE_DIRECTORY") {
-                        bat 'docker build -t $IMAGE_NAME:$IMAGE_TAG .'
+                        bat bat 'docker build -t %IMAGE_NAME%:%IMAGE_TAG% .'
                     }
                 }
             }
             stage('Run Container (Sanity Check)') {
                 steps {
                     dir("$SERVICE_DIRECTORY") {
-                        bat 'docker run -d --name $SERVICE_NAME -p 5555:5555 $IMAGE_NAME:$IMAGE_TAG'
+                        bat 'docker run -d --name %SERVICE_NAME% -p 5555:5555 %IMAGE_NAME%:%IMAGE_TAG%'
                     }
                 }
             }
@@ -62,8 +62,7 @@ pipeline {
                         }
 
                         docker login -u $DOCKER_USER -p $DOCKER_PASS
-                        docker push $IMAGE_NAME:$IMAGE_TAG
-
+                        docker push %IMAGE_NAME%:%IMAGE_TAG%
                         '''
                     }
                 }
@@ -73,7 +72,7 @@ pipeline {
     post {
         always {
             dir("$SERVICE_DIRECTORY") {
-                bat 'docker rm -f $SERVICE_NAME || exit 0'
+                bat 'docker rm -f %SERVICE_NAME% || exit 0'
             }
         }
     }
