@@ -6,7 +6,7 @@ pipeline {
     SERVICE_NAME = 'euerkaserver'
     SERVICE_DESCRIPTION = 'Eureka Server'
     SERVICE_DISPLAY_NAME = 'Eureka Server'
-    SERVICE_DIRECTORY = 'euerkaserver'
+    SERVICE_DIRECTORY = 'Phase-1-Basic Service Build/euerkaserver'
    }
     stages {
             stage('Maven Clean') {
