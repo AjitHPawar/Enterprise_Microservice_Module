@@ -3,7 +3,7 @@ spring:
     name: euerkaserver
 
 server:
-  port: 8761
+  port: 5555
 
 #Add Colored Console Logging Pattern For Each Log Level
 logging:
