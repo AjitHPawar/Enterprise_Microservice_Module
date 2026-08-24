@@ -51,19 +51,13 @@ pipeline {
                     usernameVariable: 'DOCKER_USER',
                     passwordVariable: 'DOCKER_PASS')])
                     {
-                        powershell '''
-                        Write-Host "USER=$env:DOCKER_USER"
+                         powershell '''
+                                        $env:DOCKER_PASS | docker login --username $env:DOCKER_USER --password-stdin
 
-                        if($env:DOCKER_PASS){
-                            Write-Host "PASS=PRESENT"
-                        }else{
-                            Write-Host "PASS=NULL"
-                            exit 1
-                        }
+                                        docker push "$env:IMAGE_NAME`:$env:IMAGE_TAG"
 
-                        docker login -u $DOCKER_USER -p $DOCKER_PASS
-                        docker push %IMAGE_NAME%:%IMAGE_TAG%
-                        '''
+                                        docker logout
+                                    '''
                     }
                 }
             }
