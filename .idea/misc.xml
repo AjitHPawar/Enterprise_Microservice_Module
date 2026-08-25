@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Phase-1-Basic Service Build/account/pom.xml" />
         <option value="$PROJECT_DIR$/Phase-1-Basic Service Build/euerkaserver/pom.xml" />
         <option value="$PROJECT_DIR$/Phase-1-Basic Service Build/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Phase-1-Basic Service Build/user/pom.xml" />
       </list>
     </option>
   </component>
