@@ -1,0 +1,38 @@
+#Ignore all build files
+/target
+/build
+
+#Ignore all Intellij IDEA files
+.idea
+*.iml
+
+#Ignore all Eclipse files
+.classpath
+.project
+.settings
+.cache
+
+#Ignore all VS Code files
+.vscode
+
+#Ignore all log files
+*.log
+
+#Ignore all unit test report files
+*.html
+
+#Ignore all report files
+*.pdf
+*.docx
+*.xlsx
+*.csv
+
+#Ignore all spring boot modules
+!/user/pom.xml
+!/user
+!/loan/pom.xml
+!/loan
+!/card/pom.xml
+!/card
+!/account/pom.xml
+!/account

@@ -1,0 +1,73 @@
+pipeline {
+ agent any
+    environment {
+    IMAGE_NAME = 'enterprise_module/euerkaserver'
+    IMAGE_TAG = 'latest'
+    SERVICE_NAME = 'euerkaserver'
+    SERVICE_DESCRIPTION = 'Eureka Server'
+    SERVICE_DISPLAY_NAME = 'Eureka Server'
+    SERVICE_DIRECTORY = 'Phase-1-Basic Service Build/euerkaserver'
+   }
+    stages {
+            stage('Maven Clean') {
+                steps {
+                    dir("$SERVICE_DIRECTORY") {
+                        bat 'mvn clean'
+                    }
+                }
+            }
+            stage('Run Tests') {
+                steps {
+                    dir("$SERVICE_DIRECTORY") {
+                        bat 'mvn test'
+                    }
+                }
+            }
+            stage('Maven Build Jar') {
+                steps {
+                    dir("$SERVICE_DIRECTORY") {
+                        bat 'mvn clean package -DskipTests'
+                    }
+                }
+            }
+            stage('Build Docker Image') {
+                steps {
+                    dir("$SERVICE_DIRECTORY") {
+                        bat 'docker build -t %IMAGE_NAME%:%IMAGE_TAG% .'
+                    }
+                }
+            }
+            stage('Run Container (Sanity Check)') {
+                steps {
+                    dir("$SERVICE_DIRECTORY") {
+                        bat 'docker run -d --name %SERVICE_NAME% -p 5555:5555 %IMAGE_NAME%:%IMAGE_TAG%'
+                    }
+                }
+            }
+            stage('Push To Docker Hub') {
+                steps {
+                    withCredentials([usernamePassword(
+                    credentialsId: 'dockerhub-creds',
+                    usernameVariable: 'DOCKER_USER',
+                    passwordVariable: 'DOCKER_PASS')])
+                    {
+                         powershell '''
+                                        $env:DOCKER_PASS | docker login --username $env:DOCKER_USER --password-stdin
+
+                                        docker push "$env:IMAGE_NAME`:$env:IMAGE_TAG"
+
+                                        docker logout
+                                    '''
+                    }
+                }
+            }
+    }
+
+    post {
+        always {
+            dir("$SERVICE_DIRECTORY") {
+                bat 'docker rm -f %SERVICE_NAME% || exit 0'
+            }
+        }
+    }
+}
