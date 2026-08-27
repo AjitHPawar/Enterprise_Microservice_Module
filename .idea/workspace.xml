@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="173bac9e-8b48-4e4f-ae99-9a85b94cf3b3" name="Changes" comment="RestClient Integration implemented.">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/0. Microservice-Module.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/awsToolkit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/controller/asynchronous/WebClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/controller/asynchronous/WebClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/controller/synchronous/RestClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/controller/synchronous/RestClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/controller/asynchronous/WebClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/controller/asynchronous/WebClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/euerkaserver/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/euerkaserver/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/gatewayserver/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/gatewayserver/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/src/main/java/com/loan/controller/asynchronous/WebClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/src/main/java/com/loan/controller/asynchronous/WebClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/src/test/java/com/loan/LoanApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/src/main/java/com/user/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/src/main/java/com/user/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/src/main/java/com/user/controller/asynchronous/WebClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/src/main/java/com/user/controller/asynchronous/WebClientController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;AjitHPawar&quot;,
+      &quot;author&quot;: &quot;AjitHPawar&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AjitHPawar&quot;,
+    &quot;author&quot;: &quot;AjitHPawar&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOUAiAr88AAAABA6m8LA&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1787726208996
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AjitHPawar/Enterprise_Microservice_Module.git&quot;,
+    &quot;accountId&quot;: &quot;55a9b9e0-b289-4add-a441-ff542e934a2c&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3IFqk8iLlD4iH5tssOO16Fxfbi0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Account.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Card.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EurekaServer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GatewayServer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Loan.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.User.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.card [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.card [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/0. Microservice-Module&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26204818&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.account.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\0. Microservice-Module\Phase-1-Basic Service Build\user\src\main\java\com\user" />
+      <recent name="D:\Workspace\0. Microservice-Module\Phase-1-Basic Service Build\account\src\main\java\com\account" />
+      <recent name="D:\Workspace\0. Microservice-Module\Phase-1-Basic Service Build\loan\src\main\java\com\loan\controller" />
+      <recent name="D:\Workspace\0. Microservice-Module\Phase-1-Basic Service Build\card\src\main\java\com\card\controller" />
+      <recent name="D:\Workspace\0. Microservice-Module\Phase-1-Basic Service Build\gatewayserver\src\main\java\com\gatewayserver" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.card.controller.synchronous" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.loan.dto" />
+      <recent name="com.card.dto" />
+      <recent name="com.loan.controller.synchronous" />
+      <recent name="com.card.controller" />
+      <recent name="com.loan.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Account">
+    <configuration name="Account" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.account.AccountApplication" />
+      <module name="account" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Card" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.card.CardApplication" />
+      <module name="card" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.eurekaserver.EuerkaserverApplication" />
+      <module name="euerkaserver" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.gatewayserver.GatewayserverApplication" />
+      <module name="gatewayserver" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Loan" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.loan.LoanApplication" />
+      <module name="loan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Phase-1-Basic Service Build" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.user.UserApplication" />
+      <module name="user" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="card" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="card" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Account" />
+      <item itemvalue="Application.Card" />
+      <item itemvalue="Application.EurekaServer" />
+      <item itemvalue="Application.GatewayServer" />
+      <item itemvalue="Application.Loan" />
+      <item itemvalue="Application.User" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="173bac9e-8b48-4e4f-ae99-9a85b94cf3b3" name="Changes" comment="" />
+      <created>1787370805239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787370805239</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Yaml changes in All and Jenkinsfile Added in EurekaServer.">
+      <option name="closed" value="true" />
+      <created>1787486822483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787486822483</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated Env. Service Dir.">
+      <option name="closed" value="true" />
+      <created>1787489480636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787489480636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated Env. Service Dir.">
+      <option name="closed" value="true" />
+      <created>1787491050404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787491050404</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated Env. Service Dir.">
+      <option name="closed" value="true" />
+      <created>1787491208014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1787491208014</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Dockerfile.">
+      <option name="closed" value="true" />
+      <created>1787494281181</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1787494281181</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Dockerfile-updated.">
+      <option name="closed" value="true" />
+      <created>1787496390566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1787496390566</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Dockerfile-updated.">
+      <option name="closed" value="true" />
+      <created>1787544228568</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1787544228568</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Dockerfile-updated.">
+      <option name="closed" value="true" />
+      <created>1787545029124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1787545029124</updated>
+    </task>
+    <task id="LOCAL-00009" summary="RestClient Integration implemented.">
+      <option name="closed" value="true" />
+      <created>1787650215548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1787650215548</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Yaml changes in All and Jenkinsfile Added in EurekaServer." />
+    <MESSAGE value="Updated Env. Service Dir." />
+    <MESSAGE value="Added Dockerfile." />
+    <MESSAGE value="Added Dockerfile-updated." />
+    <MESSAGE value="RestClient Integration implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="RestClient Integration implemented." />
+  </component>
+</project>

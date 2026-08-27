@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/0. Microservice-Module.iml" filepath="$PROJECT_DIR$/.idea/0. Microservice-Module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Phase-1-Basic Service Build/card/card.iml" filepath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/card.iml" />
     </modules>
   </component>
 </project>

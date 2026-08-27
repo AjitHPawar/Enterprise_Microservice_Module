@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.web.client.RestClient;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.reactive.function.client.WebClient;
 
 @Configuration
 public class BeanConfig {
@@ -39,5 +40,19 @@ public class BeanConfig {
                 .defaultHeader("Content-Type", "application/json")
                 .build();
         return restClient.build();
+    }
+
+    @Bean
+    @LoadBalanced
+    public WebClient.Builder loadBalancedWebClientBuilder() {
+        return WebClient.builder();
+    }
+
+    @Bean
+    public WebClient cardWebClient(WebClient.Builder loadBalancedWebClientBuilder) {
+        return loadBalancedWebClientBuilder
+                .baseUrl("lb://GATEWAYSERVER")   // must match spring.application.name of gateway, case-insensitive
+                .defaultHeader("Content-Type", "application/json")
+                .build();
     }
 }
