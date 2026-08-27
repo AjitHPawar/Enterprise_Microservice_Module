@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="173bac9e-8b48-4e4f-ae99-9a85b94cf3b3" name="Changes" comment="RestClient Integration implemented.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/0. Microservice-Module.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/awsToolkit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/config/BeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/controller/asynchronous/WebClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/controller/asynchronous/WebClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/controller/synchronous/RestClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/src/main/java/com/account/controller/synchronous/RestClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/config/BeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/controller/asynchronous/WebClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/controller/asynchronous/WebClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/euerkaserver/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/euerkaserver/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/gatewayserver/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/gatewayserver/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/src/main/java/com/loan/controller/asynchronous/WebClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/src/main/java/com/loan/controller/asynchronous/WebClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/src/test/java/com/loan/LoanApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/src/main/java/com/user/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/src/main/java/com/user/config/BeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/src/main/java/com/user/controller/asynchronous/WebClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/src/main/java/com/user/controller/asynchronous/WebClientController.java" afterDir="false" />
-    </list>
+    <list default="true" id="21207fd7-94d0-4c88-9b2f-e7ea31a4bfcc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
