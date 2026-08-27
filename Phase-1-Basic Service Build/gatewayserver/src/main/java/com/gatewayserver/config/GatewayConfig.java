@@ -13,7 +13,8 @@ public class GatewayConfig {
         RouteLocatorBuilder.Builder route = builder.routes()
                 .route("account", r -> r.path("/account/**").uri("http://localhost:1111"))
                 .route("card", r -> r.path("/card/**").uri("http://localhost:1212"))
-                .route("loan", r -> r.path("/loan/**").uri("http://localhost:1313"));
+                .route("loan", r -> r.path("/loan/**").uri("http://localhost:1313"))
+                .route("user", r -> r.path("/user/**").uri("http://localhost:1515"));
         return route.build();
     }
 
