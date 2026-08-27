@@ -19,7 +19,7 @@ eureka:
       defaultZone: http://localhost:5555/eureka/
 
 #Disable the Spring Cloud LoadBalancer Caching for old data
-spring:
+
   cloud:
     loadbalancer:
       cache:

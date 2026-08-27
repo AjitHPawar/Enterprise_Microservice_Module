@@ -1,9 +1,9 @@
 spring:
   application:
-    name: loan
+    name: user
 
 server:
-  port: 1313
+  port: 1515
 
 #Add Colored Console Logging Pattern For Each Log Level
 logging:

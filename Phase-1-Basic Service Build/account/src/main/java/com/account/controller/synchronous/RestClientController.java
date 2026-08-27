@@ -26,14 +26,6 @@ public class RestClientController {
                 .toEntity(HttpClientResponseDto.class).getBody();
 
         response.getResponse().put("ACCOUNT", "Rest Client From Account Service");
-        /*Map<String, String> accountResponse = new HashMap<>();
-        accountResponse.put("ACCOUNT", "Rest Client From Account Service");
-        HttpClientResponseDto responseDto = HttpClientResponseDto.builder()
-                .response(accountResponse)
-                .build();
-        if (response.getBody() != null)
-            response.getBody().getResponse().putAll(accountResponse);
-*/
         return response;
     }
 }
