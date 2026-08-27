@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21207fd7-94d0-4c88-9b2f-e7ea31a4bfcc" name="Changes" comment="" />
+    <list default="true" id="3712e1d5-689c-4377-8e2c-da640232066f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/controller/synchronous/RESTTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/controller/synchronous/RESTTemplateController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,20 +38,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;history&quot;: [
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
     {
-      &quot;state&quot;: &quot;OPEN&quot;,
-      &quot;assignee&quot;: &quot;AjitHPawar&quot;,
-      &quot;author&quot;: &quot;AjitHPawar&quot;
+      "state": "OPEN",
+      "assignee": "AjitHPawar",
+      "author": "AjitHPawar"
+    },
+    {
+      "assignee": "AjitHPawar"
     }
   ],
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;AjitHPawar&quot;,
-    &quot;author&quot;: &quot;AjitHPawar&quot;
+  "lastFilter": {
+    "assignee": "AjitHPawar"
   }
-}</component>
+}]]></component>
   <component name="GitHubPullRequestState">{
   &quot;prStates&quot;: [
     {
@@ -84,30 +91,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Account.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Card.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EurekaServer.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GatewayServer.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Loan.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.User.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.card [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.card [install].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/0. Microservice-Module&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26204818&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Account.executor": "Debug",
+    "Application.Card.executor": "Debug",
+    "Application.EurekaServer.executor": "Debug",
+    "Application.GatewayServer.executor": "Debug",
+    "Application.Loan.executor": "Debug",
+    "Application.Phase-2-Account.executor": "Debug",
+    "Application.Phase-2-Card.executor": "Debug",
+    "Application.Phase-2-EurekaServer.executor": "Debug",
+    "Application.Phase-2-Gateway-Server.executor": "Debug",
+    "Application.Phase-2-Loan.executor": "Debug",
+    "Application.Phase-2-User.executor": "Debug",
+    "Application.User.executor": "Debug",
+    "Maven.card [clean].executor": "Run",
+    "Maven.card [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Workspace/0. Microservice-Module",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.splitter.proportion": "0.26204818"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.account.dto" />
@@ -130,7 +144,7 @@
       <recent name="com.loan.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Account">
+  <component name="RunManager" selected="Application.Phase-2-Loan">
     <configuration name="Account" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -202,6 +216,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Phase-2-Account" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.account.AccountApplication" />
+      <module name="phase2-account" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Phase-2-Card" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.card.CardApplication" />
+      <module name="phase2-card" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Phase-2-EurekaServer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.eurekaserver.EuerkaserverApplication" />
+      <module name="phase2-euerkaserver" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Phase-2-Gateway-Server" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.gatewayserver.GatewayserverApplication" />
+      <module name="phase2-gatewayserver" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Phase-2-Loan" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.loan.LoanApplication" />
+      <module name="phase2-loan" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Phase-2-User" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.user.UserApplication" />
+      <module name="phase2-user" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="User" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -229,6 +327,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Phase-2-Account" />
+      <item itemvalue="Application.Phase-2-Card" />
+      <item itemvalue="Application.Phase-2-Loan" />
+      <item itemvalue="Application.Phase-2-EurekaServer" />
+      <item itemvalue="Application.Phase-2-Gateway-Server" />
+      <item itemvalue="Application.Phase-2-User" />
       <item itemvalue="Application.Account" />
       <item itemvalue="Application.Card" />
       <item itemvalue="Application.EurekaServer" />

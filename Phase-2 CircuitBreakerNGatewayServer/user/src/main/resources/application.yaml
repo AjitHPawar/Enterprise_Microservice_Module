@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: user
+
+server:
+  port: 1515
+
+#Add Colored Console Logging Pattern For Each Log Level
+logging:
+  pattern:
+    console: ${CONSOLE_LOG_PATTERN:%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %cyan(%msg%n)}
+  level:
+    root: INFO
+
+#Eureka Server Configurations
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:5555/eureka/
+
+#Disable the Spring Cloud LoadBalancer Caching for old data
+  cloud:
+    loadbalancer:
+      cache:
+        enabled: false
+
+resilience4j:
+  retry:
+    configurations:
+      default:
+        max-attempts: 3
+        wait-duration: 1s
+        enable-exponential-backoff: true
+        exponential-backoff-multiplier: 2
+        retry-exceptions:
+          - java.lang.RuntimeException
+        ignore-exceptions:
+          - java.lang.NullPointerException
+
+  circuitbreaker:
+    configurations:
+      default:
+        sliding-window-size: 5
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+        permitted-number-of-calls-in-half-open-state: 2

@@ -10,6 +10,12 @@
         <option value="$PROJECT_DIR$/Phase-1-Basic Service Build/euerkaserver/pom.xml" />
         <option value="$PROJECT_DIR$/Phase-1-Basic Service Build/gatewayserver/pom.xml" />
         <option value="$PROJECT_DIR$/Phase-1-Basic Service Build/user/pom.xml" />
+        <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/pom.xml" />
+        <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/loan/pom.xml" />
+        <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/euerkaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/pom.xml" />
+        <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/pom.xml" />
       </list>
     </option>
   </component>
