@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3712e1d5-689c-4377-8e2c-da640232066f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/java/com/account/fallback/CardFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/java/com/card/fallback/LoanFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/java/com/user/fallback/AccountFallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/controller/synchronous/RESTTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/src/main/java/com/card/controller/synchronous/RESTTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/java/com/account/http/AccountFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/java/com/account/http/AccountFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/java/com/card/http/CardFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/java/com/card/http/CardFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/java/com/user/http/UserFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/java/com/user/http/UserFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,21 +46,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN",
-      "assignee": "AjitHPawar",
-      "author": "AjitHPawar"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;AjitHPawar&quot;,
+      &quot;author&quot;: &quot;AjitHPawar&quot;
     },
     {
-      "assignee": "AjitHPawar"
+      &quot;assignee&quot;: &quot;AjitHPawar&quot;
     }
   ],
-  "lastFilter": {
-    "assignee": "AjitHPawar"
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;AjitHPawar&quot;
   }
-}]]></component>
+}</component>
   <component name="GitHubPullRequestState">{
   &quot;prStates&quot;: [
     {
@@ -91,37 +99,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Account.executor": "Debug",
-    "Application.Card.executor": "Debug",
-    "Application.EurekaServer.executor": "Debug",
-    "Application.GatewayServer.executor": "Debug",
-    "Application.Loan.executor": "Debug",
-    "Application.Phase-2-Account.executor": "Debug",
-    "Application.Phase-2-Card.executor": "Debug",
-    "Application.Phase-2-EurekaServer.executor": "Debug",
-    "Application.Phase-2-Gateway-Server.executor": "Debug",
-    "Application.Phase-2-Loan.executor": "Debug",
-    "Application.Phase-2-User.executor": "Debug",
-    "Application.User.executor": "Debug",
-    "Maven.card [clean].executor": "Run",
-    "Maven.card [install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Workspace/0. Microservice-Module",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "settings.editor.splitter.proportion": "0.26204818"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Account.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Card.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EurekaServer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GatewayServer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Loan.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Phase-2-Account.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Phase-2-Card.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Phase-2-EurekaServer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Phase-2-Gateway-Server.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Phase-2-Loan.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Phase-2-User.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.User.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.card [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.card [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/0. Microservice-Module&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26204818&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.account.dto" />
@@ -144,7 +152,7 @@
       <recent name="com.loan.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Phase-2-Loan">
+  <component name="RunManager" selected="Application.Phase-2-User">
     <configuration name="Account" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -343,7 +351,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="173bac9e-8b48-4e4f-ae99-9a85b94cf3b3" name="Changes" comment="" />
+      <changelist id="3712e1d5-689c-4377-8e2c-da640232066f" name="Changes" comment="" />
       <created>1787370805239</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
