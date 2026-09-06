@@ -5,8 +5,3 @@ logging:
   level:
     root: INFO
 
-#Eureka Server Configurations
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:5555/eureka/
