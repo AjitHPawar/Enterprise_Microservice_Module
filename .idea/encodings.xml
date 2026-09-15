@@ -13,5 +13,12 @@
     <file url="file://$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/gatewayserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/loan/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Phase-3-ConfigManagement/account/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Phase-3-ConfigManagement/card/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Phase-3-ConfigManagement/euerkaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Phase-3-ConfigManagement/gatewayserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Phase-3-ConfigManagement/loan/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Phase-3-ConfigManagement/phase3-configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Phase-3-ConfigManagement/user/src/main/java" charset="UTF-8" />
   </component>
 </project>
