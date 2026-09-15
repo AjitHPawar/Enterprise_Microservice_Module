@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: loan
+  config:
+    import: "configserver:http://localhost:1616"
+    enabled: true
+
+server:
+  port: 1313
+
+#Add Colored Console Logging Pattern For Each Log Level
+logging:
+  pattern:
+    console: ${CONSOLE_LOG_PATTERN:%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %cyan(%msg%n)}
+  level:
+    root: INFO
+
+#Eureka Server Configurations
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:5555/eureka/
+
+#Disable the Spring Cloud LoadBalancer Caching for old data
+  cloud:
+    loadbalancer:
+      cache:
+        enabled: false

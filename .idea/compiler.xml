@@ -8,19 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="loan" />
-        <module name="phase2-user" />
+        <module name="phase4-user" />
         <module name="phase3-user" />
         <module name="phase3-loan" />
-        <module name="phase2-account" />
         <module name="phase3-account" />
         <module name="phase2-loan" />
+        <module name="phase4-account" />
+        <module name="phase2-card" />
+        <module name="phase2-user" />
+        <module name="phase4-loan" />
+        <module name="phase4-card" />
+        <module name="phase2-account" />
         <module name="phase3-card" />
         <module name="user" />
         <module name="card" />
         <module name="account" />
-        <module name="phase2-card" />
       </profile>
-      <profile name="Annotation profile for gatewayserver" enabled="true">
+      <profile name="Annotation profile for phase4-configserver" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -28,20 +32,15 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="gatewayserver" />
-        <module name="euerkaserver" />
-      </profile>
-      <profile name="Annotation profile for phase3-configserver" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
-        </processorPath>
         <module name="phase3-configserver" />
         <module name="phase3-gatewayserver" />
         <module name="phase2-euerkaserver" />
-        <module name="phase3-euerkaserver" />
         <module name="phase2-gatewayserver" />
+        <module name="phase4-euerkaserver" />
+        <module name="phase3-euerkaserver" />
+        <module name="euerkaserver" />
+        <module name="phase4-configserver" />
+        <module name="phase4-gatewayserver" />
       </profile>
     </annotationProcessing>
   </component>
@@ -65,6 +64,13 @@
       <module name="phase3-gatewayserver" options="-parameters" />
       <module name="phase3-loan" options="-parameters" />
       <module name="phase3-user" options="-parameters" />
+      <module name="phase4-account" options="-parameters" />
+      <module name="phase4-card" options="-parameters" />
+      <module name="phase4-configserver" options="-parameters" />
+      <module name="phase4-euerkaserver" options="-parameters" />
+      <module name="phase4-gatewayserver" options="-parameters" />
+      <module name="phase4-loan" options="-parameters" />
+      <module name="phase4-user" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
   </component>

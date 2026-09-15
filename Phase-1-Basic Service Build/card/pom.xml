@@ -8,8 +8,8 @@
 		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.card</groupId>
-	<artifactId>card</artifactId>
+	<groupId>com.phase1-card</groupId>
+	<artifactId>phase1-card</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>card</name>
     <packaging>jar</packaging>
