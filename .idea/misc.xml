@@ -16,20 +16,6 @@
         <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/euerkaserver/pom.xml" />
         <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/pom.xml" />
         <option value="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-3-ConfigManagement/account/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-3-ConfigManagement/card/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-3-ConfigManagement/euerkaserver/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-3-ConfigManagement/gatewayserver/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-3-ConfigManagement/loan/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-3-ConfigManagement/user/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-3-ConfigManagement/phase3-configserver/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-4-GatewayDetailing/account/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-4-GatewayDetailing/user/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-4-GatewayDetailing/card/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-4-GatewayDetailing/euerkaserver/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-4-GatewayDetailing/gatewayserver/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-4-GatewayDetailing/loan/pom.xml" />
-        <option value="$PROJECT_DIR$/Phase-4-GatewayDetailing/phase3-configserver/pom.xml" />
       </list>
     </option>
   </component>

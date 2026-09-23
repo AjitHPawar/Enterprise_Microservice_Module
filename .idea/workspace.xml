@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3712e1d5-689c-4377-8e2c-da640232066f" name="Changes" comment="CircuitBreaker with Feign Client.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3712e1d5-689c-4377-8e2c-da640232066f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/java/com/account/fallback/CardFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/java/com/card/fallback/LoanFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/java/com/user/fallback/AccountFallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/card/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/euerkaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/euerkaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/gatewayserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/loan/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-1-Basic Service Build/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/java/com/account/http/AccountFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/java/com/account/http/AccountFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/account/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/java/com/card/http/CardFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/java/com/card/http/CardFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/card/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/java/com/user/http/UserFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/java/com/user/http/UserFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Phase-2 CircuitBreakerNGatewayServer/user/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +61,21 @@
     &quot;assignee&quot;: &quot;AjitHPawar&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState">{}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOUAiAr88AAAABA6m8LA&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1787726208996
+    }
+  ]
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/AjitHPawar/Enterprise_Microservice_Module.git&quot;,
     &quot;accountId&quot;: &quot;55a9b9e0-b289-4add-a441-ff542e934a2c&quot;
-  },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
-    },
-    &quot;owner&quot;: &quot;AjitHPawar&quot;,
-    &quot;repository&quot;: &quot;Enterprise_Microservice_Module&quot;
   }
 }</component>
   <component name="MavenImportPreferences">
@@ -109,36 +112,13 @@
     &quot;Application.Phase-2-Gateway-Server.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Phase-2-Loan.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Phase-2-User.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Phase3-Account.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Phase3-Card.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Phase3-ConfigServer.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Phase3-EurekaSever.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Phase3-GatewayServer.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Phase3-Loan.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Phase3-User.executor&quot;: &quot;Debug&quot;,
     &quot;Application.User.executor&quot;: &quot;Debug&quot;,
     &quot;Maven.card [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.card [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase2-account [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase2-gatewayserver [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase3-account [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase3-card [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase3-gatewayserver [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase3-loan [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase3-user [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase4-account [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase4-account [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase4-card [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase4-configserver [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase4-euerkaserver [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase4-gatewayserver [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase4-loan [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.phase4-user [clean].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.restore.workspace.module&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -146,7 +126,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.26204818&quot;
   }
 }</component>
@@ -172,7 +152,7 @@
       <recent name="com.loan.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.User">
+  <component name="RunManager" selected="Application.Phase-2-User">
     <configuration name="Account" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -258,6 +238,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Phase-2-Card" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.card.CardApplication" />
+      <module name="phase2-card" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Phase-2-EurekaServer" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -286,6 +280,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Phase-2-Loan" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.loan.LoanApplication" />
+      <module name="phase2-loan" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Phase-2-User" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -300,221 +308,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Phase2-Card" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.card.CardApplication" />
-      <module name="phase2-card" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase3-Account" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.account.AccountApplication" />
-      <module name="phase3-account" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase3-Card" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.card.CardApplication" />
-      <module name="phase3-card" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase3-ConfigServer" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <envs>
-        <env name="GITHUB_TOKEN" value="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 " />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="com.configserver.Phase3ConfigserverApplication" />
-      <module name="phase3-configserver" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase3-EurekaSever" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.eurekaserver.EuerkaserverApplication" />
-      <module name="phase3-euerkaserver" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase3-GatewayServer" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.gatewayserver.GatewayserverApplication" />
-      <module name="phase3-gatewayserver" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase3-Loan" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.loan.LoanApplication" />
-      <module name="phase3-loan" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase3-User" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.user.UserApplication" />
-      <module name="phase3-user" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase4-Account" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.account.AccountApplication" />
-      <module name="phase4-account" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase4-Card" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.card.CardApplication" />
-      <module name="phase4-card" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase4-ConfigServer" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.configserver.Phase3ConfigserverApplication" />
-      <module name="phase4-configserver" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase4-EurekaServer" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.eurekaserver.EuerkaserverApplication" />
-      <module name="phase4-euerkaserver" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase4-GatewayServer" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.gatewayserver.GatewayserverApplication" />
-      <module name="phase4-gatewayserver" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase4-Loan" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.loan.LoanApplication" />
-      <module name="phase4-loan" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Phase4-User" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.user.UserApplication" />
-      <module name="phase4-user" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="User" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21.0.10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.user.UserApplication" />
       <module name="user" />
@@ -540,30 +335,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Phase-2-Account" />
+      <item itemvalue="Application.Phase-2-Card" />
+      <item itemvalue="Application.Phase-2-Loan" />
+      <item itemvalue="Application.Phase-2-EurekaServer" />
+      <item itemvalue="Application.Phase-2-Gateway-Server" />
+      <item itemvalue="Application.Phase-2-User" />
       <item itemvalue="Application.Account" />
       <item itemvalue="Application.Card" />
       <item itemvalue="Application.EurekaServer" />
       <item itemvalue="Application.GatewayServer" />
       <item itemvalue="Application.Loan" />
-      <item itemvalue="Application.Phase-2-Account" />
-      <item itemvalue="Application.Phase-2-EurekaServer" />
-      <item itemvalue="Application.Phase-2-Gateway-Server" />
-      <item itemvalue="Application.Phase-2-User" />
-      <item itemvalue="Application.Phase2-Card" />
-      <item itemvalue="Application.Phase3-Account" />
-      <item itemvalue="Application.Phase3-Card" />
-      <item itemvalue="Application.Phase3-ConfigServer" />
-      <item itemvalue="Application.Phase3-EurekaSever" />
-      <item itemvalue="Application.Phase3-GatewayServer" />
-      <item itemvalue="Application.Phase3-Loan" />
-      <item itemvalue="Application.Phase3-User" />
-      <item itemvalue="Application.Phase4-Account" />
-      <item itemvalue="Application.Phase4-Card" />
-      <item itemvalue="Application.Phase4-ConfigServer" />
-      <item itemvalue="Application.Phase4-EurekaServer" />
-      <item itemvalue="Application.Phase4-GatewayServer" />
-      <item itemvalue="Application.Phase4-Loan" />
-      <item itemvalue="Application.Phase4-User" />
       <item itemvalue="Application.User" />
     </list>
   </component>
@@ -647,23 +429,7 @@
       <option name="project" value="LOCAL" />
       <updated>1787650215548</updated>
     </task>
-    <task id="LOCAL-00010" summary="CircuitBreaker with Feign Client.">
-      <option name="closed" value="true" />
-      <created>1787930506159</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1787930506159</updated>
-    </task>
-    <task id="LOCAL-00011" summary="CircuitBreaker with Feign Client.">
-      <option name="closed" value="true" />
-      <created>1789474316982</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1789474316982</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -683,7 +449,6 @@
     <MESSAGE value="Added Dockerfile." />
     <MESSAGE value="Added Dockerfile-updated." />
     <MESSAGE value="RestClient Integration implemented." />
-    <MESSAGE value="CircuitBreaker with Feign Client." />
-    <option name="LAST_COMMIT_MESSAGE" value="CircuitBreaker with Feign Client." />
+    <option name="LAST_COMMIT_MESSAGE" value="RestClient Integration implemented." />
   </component>
 </project>
