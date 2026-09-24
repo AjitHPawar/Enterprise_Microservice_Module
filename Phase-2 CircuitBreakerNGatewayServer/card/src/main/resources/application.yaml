@@ -2,6 +2,14 @@ spring:
   application:
     name: card
 
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+
+    loadbalancer:
+      cache:
+        enabled: false
 server:
   port: 1212
 
@@ -19,12 +27,6 @@ eureka:
       defaultZone: http://localhost:5555/eureka/
 
 #Disable the Spring Cloud LoadBalancer Caching for old data
-
-  cloud:
-    loadbalancer:
-      cache:
-        enabled: false
-
 
 #Resilience4j Configurations
 resilience4j:

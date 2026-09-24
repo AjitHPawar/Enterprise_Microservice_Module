@@ -1,0 +1,32 @@
+#Add Colored Console Logging Pattern For Each Log Level
+logging:
+  pattern:
+    console: ${CONSOLE_LOG_PATTERN:%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %cyan(%msg%n)}
+  level:
+    root: INFO
+
+spring:
+  application:
+    name: phase3-configserver
+
+
+  #Centralized Config properties
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AjitHPawar/Enterprise_Microservice_Module.git
+          #search-paths: dev-config-properties
+          username: AjitHPawar
+          password: ${GITHUB_TOKEN}
+          default-label: main
+          clone-on-start: true
+
+server:
+  port: 1616
+
+# THIS must live locally in configserver's own file, not in git:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:5555/eureka/     # match your ACTUAL eureka port
