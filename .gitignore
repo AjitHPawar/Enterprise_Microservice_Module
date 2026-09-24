@@ -3,8 +3,9 @@
 /build
 
 #Ignore all Intellij IDEA files
-*.iml
 .idea/
+*.iml
+
 
 #Ignore all Eclipse files
 .classpath
